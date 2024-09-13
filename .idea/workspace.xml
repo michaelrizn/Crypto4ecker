@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3186df52-8798-4cc8-9342-52b7ff3102d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Crypto4ecker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto_bot.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/crypto_bot.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/db_initializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/delete_all_tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/crypto_bot.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_db_initializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_models.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2m1CItmimDPnkbeBCGbanYIfhfq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests in test_bot.py.executor": "Run",
+    "Python tests.Python tests in test_database.py.executor": "Run",
+    "Python tests.Python tests in test_db_initializer.py.executor": "Run",
+    "Python tests.Python tests in test_models.py.executor": "Run",
+    "Python.data_fetcher.executor": "Run",
+    "Python.database.executor": "Run",
+    "Python.db_initializer.executor": "Run",
+    "Python.delete_all_tables.executor": "Run",
+    "Python.market_analysis.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3186df52-8798-4cc8-9342-52b7ff3102d6" name="Changes" comment="" />
+      <created>1726234618802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726234618802</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

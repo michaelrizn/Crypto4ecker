@@ -1,0 +1,8 @@
+python-telegram-bot
+requests
+schedule
+python-dotenv
+openai
+discover
+numpy
+scikit-learn

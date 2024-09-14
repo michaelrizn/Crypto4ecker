@@ -16,11 +16,11 @@ class TestDBInitializer(unittest.TestCase):
         # Отладочный вывод для проверки пути к БД
         print(f"База данных проверяется по пути: {DB_PATH}")
 
-        # Проверяем, что таблица market_data создана
+        # Проверяем, что таблица market_data.py создана
         with connect_db() as conn:
-            cursor = conn.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='market_data';")
+            cursor = conn.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='market_data.py';")
             result = cursor.fetchone()
-            self.assertIsNotNone(result, "Таблица market_data не была создана")
+            self.assertIsNotNone(result, "Таблица market_data.py не была создана")
 
             cursor = conn.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='macro_factors';")
             result = cursor.fetchone()

@@ -8,11 +8,8 @@ def create_tables():
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
                 coin_id TEXT NOT NULL,
-                circulating_supply REAL,
-                total_supply REAL,
                 price REAL,
                 volume_24h REAL,
-                market_cap REAL,
                 volatility REAL
             );
         ''')

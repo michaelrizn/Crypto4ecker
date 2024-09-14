@@ -1,24 +1,18 @@
-from dataclasses import dataclass
-from datetime import datetime
+from sqlalchemy import Column, Integer, String, Float, DateTime
+from sqlalchemy.ext.declarative import declarative_base
 
-# Модель для рыночных данных
-@dataclass
-class MarketData:
-    coin_id: str
-    circulating_supply: float
-    total_supply: float
-    price: float
-    volume_24h: float
-    market_cap: float
-    volatility: float
-    timestamp: datetime = datetime.now()
+Base = declarative_base()
 
-# Модель для технических индикаторов
-@dataclass
-class TechnicalIndicator:
-    coin_id: str
-    macd_value: float
-    rsi_value: float
-    bollinger_upper: float
-    bollinger_lower: float
-    timestamp: datetime = datetime.now()
+
+class MarketData(Base):
+    __tablename__ = 'market_data'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    timestamp = Column(DateTime, nullable=False)
+    coin_id = Column(String, nullable=False)
+    price = Column(Float, nullable=True)
+    volume_24h = Column(Float, nullable=True)
+    volatility = Column(Float, nullable=True)
+
+    def __repr__(self):
+        return f"<MarketData(coin_id={self.coin_id}, price={self.price}, volume_24h={self.volume_24h})>"

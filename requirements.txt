@@ -6,3 +6,7 @@ openai
 discover
 numpy
 scikit-learn
+sqlalchemy
+wbgapi
+tradingeconomics
+fredapi

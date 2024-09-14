@@ -4,30 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3186df52-8798-4cc8-9342-52b7ff3102d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Crypto4ecker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crypto_bot.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/crypto_bot.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/db_initializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/delete_all_tables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/crypto_bot.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_db_initializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_models.py" afterDir="false" />
+    <list default="true" id="3186df52-8798-4cc8-9342-52b7ff3102d6" name="Changes" comment="0.1">
+      <change afterPath="$PROJECT_DIR$/services/macro_factors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/market_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/social_media.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/crypto_bot.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/crypto_bot.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db_initializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/db_initializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_db_initializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_db_initializer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2m1CItmimDPnkbeBCGbanYIfhfq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,7 +47,10 @@
     "Python.database.executor": "Run",
     "Python.db_initializer.executor": "Run",
     "Python.delete_all_tables.executor": "Run",
+    "Python.macro_factors.executor": "Run",
     "Python.market_analysis.executor": "Run",
+    "Python.market_data.executor": "Run",
+    "Python.social_media.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
@@ -81,9 +72,20 @@
       <option name="presentableId" value="Default" />
       <updated>1726234618802</updated>
     </task>
+    <task id="LOCAL-00001" summary="0.1">
+      <option name="closed" value="true" />
+      <created>1726243682237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726243682237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1" />
   </component>
 </project>
